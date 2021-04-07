@@ -74,39 +74,6 @@
         }
       },
       {
-        "HashCode": -927602885,
-        "Kind": "Components.Component",
-        "Name": "BlazorShop.Client.Pages.FetchData",
-        "AssemblyName": "BlazorShop.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorShop.Client.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": -59237930,
-        "Kind": "Components.Component",
-        "Name": "BlazorShop.Client.Pages.FetchData",
-        "AssemblyName": "BlazorShop.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorShop.Client.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorShop.Client.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1653053966,
         "Kind": "Components.Component",
         "Name": "BlazorShop.Client.Pages.Index",
@@ -156,6 +123,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorShop.Client.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -927602885,
+        "Kind": "Components.Component",
+        "Name": "BlazorShop.Client.Pages.FetchData",
+        "AssemblyName": "BlazorShop.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorShop.Client.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": -59237930,
+        "Kind": "Components.Component",
+        "Name": "BlazorShop.Client.Pages.FetchData",
+        "AssemblyName": "BlazorShop.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorShop.Client.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorShop.Client.Pages.FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -213,6 +213,39 @@
         }
       },
       {
+        "HashCode": 542951611,
+        "Kind": "Components.Component",
+        "Name": "BlazorShop.Client.Pages.Cart",
+        "AssemblyName": "BlazorShop.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Cart"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorShop.Client.Pages.Cart"
+        }
+      },
+      {
+        "HashCode": -447516981,
+        "Kind": "Components.Component",
+        "Name": "BlazorShop.Client.Pages.Cart",
+        "AssemblyName": "BlazorShop.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorShop.Client.Pages.Cart"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorShop.Client.Pages.Cart",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -807095635,
         "Kind": "Components.Component",
         "Name": "BlazorShop.Client.Shared.SurveyPrompt",
@@ -262,6 +295,105 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorShop.Client.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -590053298,
+        "Kind": "Components.Component",
+        "Name": "BlazorShop.Client.Shared.NavMenu",
+        "AssemblyName": "BlazorShop.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorShop.Client.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -315926210,
+        "Kind": "Components.Component",
+        "Name": "BlazorShop.Client.Shared.NavMenu",
+        "AssemblyName": "BlazorShop.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorShop.Client.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorShop.Client.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1056127336,
+        "Kind": "Components.Component",
+        "Name": "BlazorShop.Client.Shared.TopMenu",
+        "AssemblyName": "BlazorShop.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TopMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorShop.Client.Shared.TopMenu"
+        }
+      },
+      {
+        "HashCode": 203806258,
+        "Kind": "Components.Component",
+        "Name": "BlazorShop.Client.Shared.TopMenu",
+        "AssemblyName": "BlazorShop.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorShop.Client.Shared.TopMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorShop.Client.Shared.TopMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 214846492,
+        "Kind": "Components.Component",
+        "Name": "BlazorShop.Client.Shared.ProductList",
+        "AssemblyName": "BlazorShop.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProductList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorShop.Client.Shared.ProductList"
+        }
+      },
+      {
+        "HashCode": 1355057475,
+        "Kind": "Components.Component",
+        "Name": "BlazorShop.Client.Shared.ProductList",
+        "AssemblyName": "BlazorShop.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorShop.Client.Shared.ProductList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorShop.Client.Shared.ProductList",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -362,68 +494,334 @@
         }
       },
       {
-        "HashCode": -590053298,
+        "HashCode": 1232580755,
         "Kind": "Components.Component",
-        "Name": "BlazorShop.Client.Shared.NavMenu",
-        "AssemblyName": "BlazorShop.Client",
+        "Name": "Blazored.Toast.BlazoredToast",
+        "AssemblyName": "Blazored.Toast",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "BlazoredToast"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ToastId",
+            "TypeName": "System.Guid",
+            "Metadata": {
+              "Common.PropertyName": "ToastId"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ToastSettings",
+            "TypeName": "Blazored.Toast.Configuration.ToastSettings",
+            "Metadata": {
+              "Common.PropertyName": "ToastSettings"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Timeout",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Timeout"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorShop.Client.Shared.NavMenu"
+          "Common.TypeName": "Blazored.Toast.BlazoredToast"
         }
       },
       {
-        "HashCode": -315926210,
+        "HashCode": 860901167,
         "Kind": "Components.Component",
-        "Name": "BlazorShop.Client.Shared.NavMenu",
-        "AssemblyName": "BlazorShop.Client",
+        "Name": "Blazored.Toast.BlazoredToast",
+        "AssemblyName": "Blazored.Toast",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorShop.Client.Shared.NavMenu"
+            "TagName": "Blazored.Toast.BlazoredToast"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ToastId",
+            "TypeName": "System.Guid",
+            "Metadata": {
+              "Common.PropertyName": "ToastId"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ToastSettings",
+            "TypeName": "Blazored.Toast.Configuration.ToastSettings",
+            "Metadata": {
+              "Common.PropertyName": "ToastSettings"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Timeout",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Timeout"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorShop.Client.Shared.NavMenu",
+          "Common.TypeName": "Blazored.Toast.BlazoredToast",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": 214846492,
+        "HashCode": 925403620,
         "Kind": "Components.Component",
-        "Name": "BlazorShop.Client.Shared.ProductList",
-        "AssemblyName": "BlazorShop.Client",
+        "Name": "Blazored.Toast.BlazoredToasts",
+        "AssemblyName": "Blazored.Toast",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "ProductList"
+            "TagName": "BlazoredToasts"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "IconType",
+            "TypeName": "Blazored.Toast.IconType?",
+            "Metadata": {
+              "Common.PropertyName": "IconType"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "InfoClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "InfoClass"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "InfoIcon",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "InfoIcon"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SuccessClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "SuccessClass"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SuccessIcon",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "SuccessIcon"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "WarningClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "WarningClass"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "WarningIcon",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "WarningIcon"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ErrorClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "ErrorClass"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ErrorIcon",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "ErrorIcon"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Position",
+            "TypeName": "Blazored.Toast.Configuration.ToastPosition",
+            "IsEnum": true,
+            "Metadata": {
+              "Common.PropertyName": "Position"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Timeout",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Timeout"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "RemoveToastsOnNavigation",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "RemoveToastsOnNavigation"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ShowProgressBar",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "ShowProgressBar"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorShop.Client.Shared.ProductList"
+          "Common.TypeName": "Blazored.Toast.BlazoredToasts"
         }
       },
       {
-        "HashCode": 1355057475,
+        "HashCode": 1122932138,
         "Kind": "Components.Component",
-        "Name": "BlazorShop.Client.Shared.ProductList",
-        "AssemblyName": "BlazorShop.Client",
+        "Name": "Blazored.Toast.BlazoredToasts",
+        "AssemblyName": "Blazored.Toast",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorShop.Client.Shared.ProductList"
+            "TagName": "Blazored.Toast.BlazoredToasts"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "IconType",
+            "TypeName": "Blazored.Toast.IconType?",
+            "Metadata": {
+              "Common.PropertyName": "IconType"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "InfoClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "InfoClass"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "InfoIcon",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "InfoIcon"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SuccessClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "SuccessClass"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SuccessIcon",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "SuccessIcon"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "WarningClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "WarningClass"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "WarningIcon",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "WarningIcon"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ErrorClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "ErrorClass"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ErrorIcon",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "ErrorIcon"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Position",
+            "TypeName": "Blazored.Toast.Configuration.ToastPosition",
+            "IsEnum": true,
+            "Metadata": {
+              "Common.PropertyName": "Position"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Timeout",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Timeout"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "RemoveToastsOnNavigation",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "RemoveToastsOnNavigation"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ShowProgressBar",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "ShowProgressBar"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorShop.Client.Shared.ProductList",
+          "Common.TypeName": "Blazored.Toast.BlazoredToasts",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13104,6 +13502,11 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "e:\\Developpement\\projet C#\\BlazorShop\\BlazorShop\\Client\\Shared\\TopMenu.razor",
+      "TargetPath": "Shared\\TopMenu.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "e:\\Developpement\\projet C#\\BlazorShop\\BlazorShop\\Client\\Shared\\ProductList.razor",
       "TargetPath": "Shared\\ProductList.razor",
       "FileKind": "component"
@@ -13136,6 +13539,11 @@
     {
       "FilePath": "e:\\Developpement\\projet C#\\BlazorShop\\BlazorShop\\Client\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "e:\\Developpement\\projet C#\\BlazorShop\\BlazorShop\\Client\\Pages\\Cart.razor",
+      "TargetPath": "Pages\\Cart.razor",
       "FileKind": "component"
     },
     {

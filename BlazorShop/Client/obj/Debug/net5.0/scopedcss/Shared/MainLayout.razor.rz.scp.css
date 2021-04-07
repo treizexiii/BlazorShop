@@ -32,9 +32,9 @@
     }
 
 @media (max-width: 640.98px) {
-    .top-row:not(.auth)[b-61amlkxaen] {
+    /* .top-row:not(.auth) {
         display: none;
-    }
+    } */
 
     .top-row.auth[b-61amlkxaen] {
         justify-content: space-between;

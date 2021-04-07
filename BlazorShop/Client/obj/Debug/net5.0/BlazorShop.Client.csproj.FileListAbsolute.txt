@@ -638,3 +638,14 @@ E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\ref\Bla
 E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\BlazorShop.Client.pdb
 E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\RazorDeclaration\Pages\ProductDetails.razor.g.cs
 E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\Razor\Pages\ProductDetails.razor.g.cs
+E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\bin\Debug\net5.0\wwwroot\_framework\Blazored.LocalStorage.dll.gz
+E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\bin\Debug\net5.0\wwwroot\_framework\Blazored.Toast.dll.gz
+E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\bin\Debug\net5.0\wwwroot\_framework\Blazored.LocalStorage.dll
+E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\bin\Debug\net5.0\wwwroot\_framework\Blazored.Toast.dll
+E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\build-gz\us4j4n7F.gz
+E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\build-gz\ZLnlx4Md.gz
+E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\RazorDeclaration\Shared\TopMenu.razor.g.cs
+E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\Razor\Shared\TopMenu.razor.g.cs
+E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Cart.razor.g.cs
+E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\Razor\Pages\Cart.razor.g.cs
+E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\scopedcss\Pages\Cart.razor.rz.scp.css
