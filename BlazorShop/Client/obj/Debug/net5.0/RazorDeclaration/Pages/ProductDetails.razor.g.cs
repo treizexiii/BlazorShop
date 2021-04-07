@@ -112,7 +112,7 @@ using BlazorShop.Client.Services.CategoryService;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 22 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\Pages\ProductDetails.razor"
+#line 33 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\Pages\ProductDetails.razor"
        
     private Product product = new Product();
 
