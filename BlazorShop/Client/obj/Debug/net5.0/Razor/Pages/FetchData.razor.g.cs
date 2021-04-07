@@ -60,62 +60,69 @@ using Microsoft.AspNetCore.Components.WebAssembly.Http;
 #nullable disable
 #nullable restore
 #line 8 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
-using Microsoft.JSInterop;
+using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 9 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
-using BlazorShop.Client;
+using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 10 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
+using BlazorShop.Client;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
 using BlazorShop.Client.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 12 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
+#line 13 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
 using BlazorShop.Client.Services.ProductService;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 13 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
+#line 14 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
 using BlazorShop.Client.Services.CategoryService;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 14 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
+#line 15 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
 using BlazorShop.Client.Services.CartService;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 15 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
+#line 16 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
 using Blazored.LocalStorage;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 16 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
+#line 17 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
 using Blazored.Toast;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 17 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
+#line 18 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
 using Blazored.Toast.Services;
 
 #line default

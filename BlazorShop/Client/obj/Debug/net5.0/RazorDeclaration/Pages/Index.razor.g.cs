@@ -63,69 +63,76 @@ using Microsoft.AspNetCore.Components.WebAssembly.Http;
 #nullable disable
 #nullable restore
 #line 8 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
-using Microsoft.JSInterop;
+using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 9 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
-using BlazorShop.Client;
+using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 10 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
-using BlazorShop.Client.Shared;
+using BlazorShop.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 11 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
-using BlazorShop.Shared;
+using BlazorShop.Client.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 12 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
-using BlazorShop.Client.Services.ProductService;
+using BlazorShop.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 13 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
-using BlazorShop.Client.Services.CategoryService;
+using BlazorShop.Client.Services.ProductService;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 14 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
-using BlazorShop.Client.Services.CartService;
+using BlazorShop.Client.Services.CategoryService;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 15 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
-using Blazored.LocalStorage;
+using BlazorShop.Client.Services.CartService;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 16 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
-using Blazored.Toast;
+using Blazored.LocalStorage;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 17 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
+using Blazored.Toast;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 18 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\_Imports.razor"
 using Blazored.Toast.Services;
 
 #line default
@@ -141,7 +148,7 @@ using Blazored.Toast.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 17 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\Pages\Index.razor"
+#line 25 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\Pages\Index.razor"
        
     [Parameter]
     public string CategoryUrl { get; set; }
@@ -166,6 +173,7 @@ using Blazored.Toast.Services;
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ISyncLocalStorageService LocalStorage { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IProductService ProductService { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private ICategoryService CategoryService { get; set; }
     }

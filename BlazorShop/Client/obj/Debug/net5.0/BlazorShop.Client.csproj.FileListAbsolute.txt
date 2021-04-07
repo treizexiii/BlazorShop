@@ -429,12 +429,9 @@ E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\Razor\S
 E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
 E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
 E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
-E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\build-gz\JapRCaYu.gz
-E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\build-gz\rNJC4bYl.gz
 E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\build-gz\hqCgeA9U.gz
 E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\build-gz\XRD4+I93.gz
 E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\build-gz\n+2JF35U.gz
-E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\build-gz\lzttCE+q.gz
 E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\build-gz\N4VVwn+U.gz
 E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\build-gz\6VSatuHI.gz
 E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\build-gz\lmmOwO79.gz
@@ -649,3 +646,11 @@ E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\Razor\S
 E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Cart.razor.g.cs
 E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\Razor\Pages\Cart.razor.g.cs
 E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\scopedcss\Pages\Cart.razor.rz.scp.css
+E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Login.razor.g.cs
+E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\Razor\Pages\Login.razor.g.cs
+E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\build-gz\4ryHnS9W.gz
+E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\build-gz\2m+jsJOd.gz
+E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\build-gz\G94OFkfi.gz
+E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\obj\Debug\net5.0\build-gz\EgA+f4Gc.gz
