@@ -4,14 +4,16 @@ using BlazorShop.Server.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BlazorShop.Server.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20210407063705_EditionsFix")]
+    partial class EditionsFix
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -76,38 +78,6 @@ namespace BlazorShop.Server.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Editions");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Name = "Paperback"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Name = "E-Book"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Name = "Audiobook"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Name = "Pc"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Name = "X-Box"
-                        },
-                        new
-                        {
-                            Id = 6,
-                            Name = "Playstation"
-                        });
                 });
 
             modelBuilder.Entity("BlazorShop.Shared.Product", b =>
@@ -260,68 +230,6 @@ namespace BlazorShop.Server.Migrations
                     b.HasIndex("ProductsId");
 
                     b.ToTable("EditionProduct");
-
-                    b.HasData(
-                        new
-                        {
-                            EditionsId = 1,
-                            ProductsId = 1
-                        },
-                        new
-                        {
-                            EditionsId = 2,
-                            ProductsId = 1
-                        },
-                        new
-                        {
-                            EditionsId = 1,
-                            ProductsId = 22
-                        },
-                        new
-                        {
-                            EditionsId = 2,
-                            ProductsId = 22
-                        },
-                        new
-                        {
-                            EditionsId = 3,
-                            ProductsId = 22
-                        },
-                        new
-                        {
-                            EditionsId = 4,
-                            ProductsId = 7
-                        },
-                        new
-                        {
-                            EditionsId = 5,
-                            ProductsId = 7
-                        },
-                        new
-                        {
-                            EditionsId = 6,
-                            ProductsId = 7
-                        },
-                        new
-                        {
-                            EditionsId = 4,
-                            ProductsId = 18
-                        },
-                        new
-                        {
-                            EditionsId = 5,
-                            ProductsId = 18
-                        },
-                        new
-                        {
-                            EditionsId = 6,
-                            ProductsId = 18
-                        },
-                        new
-                        {
-                            EditionsId = 4,
-                            ProductsId = 57
-                        });
                 });
 
             modelBuilder.Entity("BlazorShop.Shared.Product", b =>

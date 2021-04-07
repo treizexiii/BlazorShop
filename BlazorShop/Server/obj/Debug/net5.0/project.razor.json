@@ -4063,6 +4063,59 @@
         }
       },
       {
+        "HashCode": 34942054,
+        "Kind": "Components.Component",
+        "Name": "BlazorShop.Client.Pages.ProductDetails",
+        "AssemblyName": "BlazorShop.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProductDetails"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorShop.Client.Pages.ProductDetails"
+        }
+      },
+      {
+        "HashCode": -901376856,
+        "Kind": "Components.Component",
+        "Name": "BlazorShop.Client.Pages.ProductDetails",
+        "AssemblyName": "BlazorShop.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorShop.Client.Pages.ProductDetails"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorShop.Client.Pages.ProductDetails",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 214846492,
         "Kind": "Components.Component",
         "Name": "BlazorShop.Client.Shared.ProductList",
