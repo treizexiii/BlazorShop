@@ -4116,39 +4116,6 @@
         }
       },
       {
-        "HashCode": 214846492,
-        "Kind": "Components.Component",
-        "Name": "BlazorShop.Client.Shared.ProductList",
-        "AssemblyName": "BlazorShop.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ProductList"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorShop.Client.Shared.ProductList"
-        }
-      },
-      {
-        "HashCode": 1355057475,
-        "Kind": "Components.Component",
-        "Name": "BlazorShop.Client.Shared.ProductList",
-        "AssemblyName": "BlazorShop.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorShop.Client.Shared.ProductList"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorShop.Client.Shared.ProductList",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -807095635,
         "Kind": "Components.Component",
         "Name": "BlazorShop.Client.Shared.SurveyPrompt",
@@ -4327,6 +4294,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorShop.Client.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 214846492,
+        "Kind": "Components.Component",
+        "Name": "BlazorShop.Client.Shared.ProductList",
+        "AssemblyName": "BlazorShop.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProductList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorShop.Client.Shared.ProductList"
+        }
+      },
+      {
+        "HashCode": 1355057475,
+        "Kind": "Components.Component",
+        "Name": "BlazorShop.Client.Shared.ProductList",
+        "AssemblyName": "BlazorShop.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorShop.Client.Shared.ProductList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorShop.Client.Shared.ProductList",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

@@ -112,16 +112,24 @@ using BlazorShop.Client.Services.CategoryService;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\Pages\ProductDetails.razor"
+#line 39 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\Pages\ProductDetails.razor"
        
-    private Product product = new Product();
-
     [Parameter]
     public int Id { get; set; }
+    private Product product = new Product();
+    private int currentEditionId = 1;
 
     protected override async Task OnInitializedAsync()
     {
         product = await ProductService.GetProduct(Id);
+        if (product.Variants.Count > 0) {
+            currentEditionId = product.Variants[0].EditionId;
+        }
+    }
+
+    private ProductVariant GetSelectedVariant() {
+        var variant = product.Variants.FirstOrDefault(v => v.EditionId == currentEditionId);
+        return variant;
     }
 
 #line default

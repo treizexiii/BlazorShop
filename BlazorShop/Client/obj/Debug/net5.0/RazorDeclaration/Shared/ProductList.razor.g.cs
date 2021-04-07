@@ -111,20 +111,29 @@ using BlazorShop.Client.Services.CategoryService;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\Shared\ProductList.razor"
+#line 26 "E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\Shared\ProductList.razor"
        
-    //[Parameter]
-    //public int? CategoryId { get; set; } = null;
-
     protected override void OnInitialized()
     {
-        //await ProductService.LoadProducts();
         ProductService.OnChange += StateHasChanged;
     }
 
     public void Dispose()
     {
         ProductService.OnChange -= StateHasChanged;
+    }
+
+    private string GetPriceText(Product product) {
+        var variants = product.Variants;
+
+        if (variants.Count  == 0) {
+            return string.Empty;
+        }
+        else if (variants.Count == 1) {
+            return $"${variants[0].Price}";
+        }
+        decimal minPrice = variants.Min(v => v.Price);
+        return $"Starting at ${minPrice}";
     }
 
 #line default
