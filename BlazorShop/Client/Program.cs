@@ -9,6 +9,7 @@ using Blazored.LocalStorage;
 using Blazored.Toast;
 using BlazorShop.Client.Services.CartService;
 using Microsoft.AspNetCore.Components.Authorization;
+using BlazorShop.Client.Services.StatsService;
 
 namespace BlazorShop.Client
 {
@@ -28,6 +29,7 @@ namespace BlazorShop.Client
             builder.Services.AddOptions();
             builder.Services.AddAuthorizationCore();
             builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthStateProvider>();
+            builder.Services.AddScoped<IStatsService, StatsService>();
 
             await builder.Build().RunAsync();
         }

@@ -38,6 +38,12 @@
     .btn-delete:hover[b-61e79hmj8k] {
         text-decoration: underline;
     }
+/* /Pages/ProductDetails.razor.rz.scp.css */
+.viewscount[b-lzryr83p8h] {
+    font-size: 12px;
+    color: gray;
+    text-align: right;
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-61amlkxaen] {
     position: relative;

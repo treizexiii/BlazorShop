@@ -4,7 +4,10 @@
 @inject ILocalStorageService LocalStorageService
 @inject IToastService ToastService
 
-<div class="media">
+<div class="viewscount">
+    <i class="oi oi-eye"></i> @product.Views.ToString("0##")
+</div>
+<div class="media mb-3">
     <div class="media-img-big-wrapper mr-2">
         <img class="media-img-big" src="@product.Image" alt="@product.Title">
     </div>
@@ -22,11 +25,12 @@
                     }
                 </select>
             </div>
+            <a href="E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\Program.cs">E:\Developpement\projet C#\BlazorShop\BlazorShop\Client\Program.cs</a>
         }
 
-        @if (GetSelectedVariant() != null) 
+        @if (GetSelectedVariant() != null)
         {
-            @if (GetSelectedVariant().OriginalPrice > GetSelectedVariant().Price) 
+            @if (GetSelectedVariant().OriginalPrice > GetSelectedVariant().Price)
             {
                 <h6 class="text-muted orignial-price">$@GetSelectedVariant().OriginalPrice</h6>
             }
@@ -48,17 +52,20 @@
     protected override async Task OnInitializedAsync()
     {
         product = await ProductService.GetProduct(Id);
-        if (product.Variants.Count > 0) {
+        if (product.Variants.Count > 0)
+        {
             currentEditionId = product.Variants[0].EditionId;
         }
     }
 
-    private ProductVariant GetSelectedVariant() {
+    private ProductVariant GetSelectedVariant()
+    {
         var variant = product.Variants.FirstOrDefault(v => v.EditionId == currentEditionId);
         return variant;
     }
 
-    private async Task AddToCart() {
+    private async Task AddToCart()
+    {
         await CartService.AddToCart(GetSelectedVariant());
     }
 }

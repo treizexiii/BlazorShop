@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "d2bprKHo/tdVv0j65kQQSf4sWkpBmthMzinmWvokZMXuiBUqWmw4fVn78qd59aBZcKVA01mS180aY2WXD1VqKA==",
+  "dgSpecHash": "pH9OecgI4JTeVH6K2z/k2efO/4jPvpLNipu5orgE6YzdMHoemjNUes+3inzBct2dXHnD+N3WWvnlBXmcwGbC5g==",
   "success": true,
   "projectFilePath": "E:\\Developpement\\projet C#\\BlazorShop\\BlazorShop\\Client\\BlazorShop.Client.csproj",
   "expectedPackageFiles": [
@@ -33,7 +33,7 @@
     "C:\\Users\\darkt\\.nuget\\packages\\microsoft.jsinterop.webassembly\\5.0.3\\microsoft.jsinterop.webassembly.5.0.3.nupkg.sha512",
     "C:\\Users\\darkt\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\darkt\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
-    "C:\\Users\\darkt\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.3\\microsoft.netcore.app.runtime.browser-wasm.5.0.3.nupkg.sha512"
+    "C:\\Users\\darkt\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.5\\microsoft.netcore.app.runtime.browser-wasm.5.0.5.nupkg.sha512"
   ],
   "logs": []
 }

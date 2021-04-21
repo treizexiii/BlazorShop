@@ -149,6 +149,9 @@ namespace BlazorShop.Server.Migrations
                     b.Property<string>("Title")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Views")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
@@ -167,7 +170,8 @@ namespace BlazorShop.Server.Migrations
                             Image = "https://i.pinimg.com/originals/d0/7f/49/d07f49fad86f488c5d13b7d71f7c2abb.jpg",
                             IsDeleted = false,
                             IsPublic = false,
-                            Title = "The Hitchhiker's Guide to the Galaxy"
+                            Title = "The Hitchhiker's Guide to the Galaxy",
+                            Views = 0
                         },
                         new
                         {
@@ -178,7 +182,8 @@ namespace BlazorShop.Server.Migrations
                             Image = "https://upload.wikimedia.org/wikipedia/commons/c/c3/1984first.jpg",
                             IsDeleted = false,
                             IsPublic = false,
-                            Title = "Nineteen Eighty-Four"
+                            Title = "Nineteen Eighty-Four",
+                            Views = 0
                         },
                         new
                         {
@@ -189,7 +194,8 @@ namespace BlazorShop.Server.Migrations
                             Image = "https://images-na.ssl-images-amazon.com/images/I/512Lrp-8JxL._SX378_BO1,204,203,200_.jpg",
                             IsDeleted = false,
                             IsPublic = false,
-                            Title = "Half-Life 2"
+                            Title = "Half-Life 2",
+                            Views = 0
                         },
                         new
                         {
@@ -200,7 +206,8 @@ namespace BlazorShop.Server.Migrations
                             Image = "https://s3.gaming-cdn.com/images/products/20/271x377/diablo-iii-cover.jpg",
                             IsDeleted = false,
                             IsPublic = false,
-                            Title = "Diablo 3"
+                            Title = "Diablo 3",
+                            Views = 0
                         },
                         new
                         {
@@ -211,7 +218,8 @@ namespace BlazorShop.Server.Migrations
                             Image = "https://static.trueachievements.com/boxart/Game_8970.jpg",
                             IsDeleted = false,
                             IsPublic = false,
-                            Title = "Day of the Tentacles"
+                            Title = "Day of the Tentacles",
+                            Views = 0
                         },
                         new
                         {
@@ -222,7 +230,8 @@ namespace BlazorShop.Server.Migrations
                             Image = "https://i.pinimg.com/originals/bf/0b/bd/bf0bbd47c62723da28597fcbba4ac366.jpg",
                             IsDeleted = false,
                             IsPublic = false,
-                            Title = "Hyperion"
+                            Title = "Hyperion",
+                            Views = 0
                         },
                         new
                         {
@@ -233,7 +242,8 @@ namespace BlazorShop.Server.Migrations
                             Image = "https://upload.wikimedia.org/wikipedia/commons/e/ee/Nintendo-Super-Famicom-Set-FL.jpg",
                             IsDeleted = false,
                             IsPublic = false,
-                            Title = "Super Nintendo Entertainment System"
+                            Title = "Super Nintendo Entertainment System",
+                            Views = 0
                         },
                         new
                         {
@@ -244,7 +254,8 @@ namespace BlazorShop.Server.Migrations
                             Image = "https://www.coque-unique.com/clothes/tshirt-femme-col-rond-mc-un-developpeur-ecrit-du-code-stop-white.jpg",
                             IsDeleted = false,
                             IsPublic = false,
-                            Title = "T-shirt Un développeur écrit du code Stop Femme"
+                            Title = "T-shirt Un développeur écrit du code Stop Femme",
+                            Views = 0
                         },
                         new
                         {
@@ -255,7 +266,8 @@ namespace BlazorShop.Server.Migrations
                             Image = "https://www.coque-unique.com/clothes/tshirt-mc-col-rond-un-developpeur-ecrit-du-code-stop-white.jpg",
                             IsDeleted = false,
                             IsPublic = false,
-                            Title = "T-shirt Un développeur écrit du code Stop Homme"
+                            Title = "T-shirt Un développeur écrit du code Stop Homme",
+                            Views = 0
                         });
                 });
 
@@ -378,6 +390,24 @@ namespace BlazorShop.Server.Migrations
                             OriginalPrice = 400m,
                             Price = 73.74m
                         });
+                });
+
+            modelBuilder.Entity("BlazorShop.Shared.Stats", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime?>("LastVisit")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Visits")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Stats");
                 });
 
             modelBuilder.Entity("BlazorShop.Shared.Product", b =>
